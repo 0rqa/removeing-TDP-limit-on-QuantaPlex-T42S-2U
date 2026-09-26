@@ -11,13 +11,14 @@
 
 ---
 
-For this mod you will need long dupon extension and Mcp2221A Breakout board, either form adafrut, original Microchip or cheap Aliexpress copy. ![I used this one.](https://www.aliexpress.com/item/1005012777556036.html)
+For this mod you will need long dupon extension cable and Mcp2221A Breakout board, either form Adafruit, original Microchip or cheap Aliexpress copy. ![I used this one.](https://www.aliexpress.com/item/1005012777556036.html)
 
 <br>
 
 ![IMAGE](https://github.com/0rqa/removeing-TDP-limit-on-QuantaPlex-T42S-2U/blob/main/pictures/diagram.png)
-Connect the dupon cables to Mcp2221A according to this diagram. After that you need to connect power to the blade by either putting it back to the chassis. Next connect Mcp2221A to your computer and open provided BatchScript file. (If that doesn't work you may need to install system ![driver](https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/SoftwareLibraries/Firmware/MCP2221_Windows_Driver_2021-02-22.zip) for Mcp2221A.)
+<br>
+Connect the dupon cables to Mcp2221A according to this diagram. After that you need to connect power to the blade by putting it back to the chassis. Next connect Mcp2221A to your computer and open provided BatchScript file. (If that doesn't work you may need to install this system ![driver](https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/SoftwareLibraries/Firmware/MCP2221_Windows_Driver_2021-02-22.zip) for Mcp2221A.)
 
 <br>
 
-Now you are done if everything went fine your QuantaPlex-T42S-2U will now support up to 165W TDP cpus (I dont recommend going over 125W unless you solder back on two missing VRM phases)
+Now you are done. If everything went fine, your QuantaPlex-T42S-2U will now support CPUs with TDP up to 165W.(I don't recommend going over 125W unless you solder back on two missing VRM phases)
